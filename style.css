@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+div {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    margin: 44px 0 0 76px;
+}
+
+.link-menu {
+    margin-right: 23px;
+    text-decoration: none;
+    color: #989D9C;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+}
+
+.link-menu:hover {
+    opacity: 80%;
+}
+
+.link-menu:active {
+    opacity: 60%;
+}
+
+.button-menu {
+    width: 130px;
+    height: 41px;
+    border: none;
+    border-radius: 20px;
+    background: #665AE1;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.button-menu:hover {
+    opacity: 80%;
+}
+
+.button-menu:active {
+    opacity: 60%;
+}
+
+main {
+    margin: 150px 0 0 125px;
+}
+
+img {
+    width: 568px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+    width: 515px;
+    position: absolute;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 122px;
+    text-align: left;
+    color: #424242;
+}
+
+h2 {
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 70px;
+    text-align: left;
+    color: #515151;
+    margin: 0 0 32px 0;
+}
+
+p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #848484;
+}
+
+.button-section {
+    margin-top: 65px;
+    width: 239px;
+    height: 64px;
+    border: none;
+    border-radius: 50px;
+    background: #ADFF00;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button-section:hover {
+    opacity: 80%;
+}
+
+.button-section:active {
+    opacity: 60%;
+}
+
+@media screen and (max-width: 900px) {
+    header {
+        display: none;
+    }
+
+    main {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    img {
+        margin: 60px 18px 0 18px;
+        width: 90%;
+        display: block;
+    }
+
+    section {
+        display: block;
+        width: 90%;
+        margin: 50px 18px;
+        position: static;
+    }
+
+    h1 {
+        font-size: 50px;
+        line-height: 50px;
+        text-align: center;
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 29px;
+        text-align: center;
+        width: 100%;
+    }
+
+    p {
+        font-size: 14px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .button-section {
+        display: block;
+        margin: 50px auto 0;
+    }
+}
